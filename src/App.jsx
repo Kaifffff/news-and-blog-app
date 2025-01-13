@@ -1,7 +1,11 @@
 import React from 'react'
-
+import News from './components/News'
 export default function App() {
   return (
-    <div>App</div>
+    <div className='container'>
+      <div className="news-blog-app">
+      <News/>
+      </div>
+    </div>
   )
 }
